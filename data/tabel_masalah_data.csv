@@ -1,0 +1,8 @@
+Masalah,Jumlah baris,Cara menangani,Alasan
+Baris duplikat penuh,500,drop_duplicates,Satu resi hanya boleh muncul sekali; duplikat membuat paket terhitung ganda.
+"Penulisan layanan tidak konsisten (Express, EXP, hemat, reg)",800,"Ubah ke 3 nilai baku: EXPRESS, REG, HEMAT",Varian ejaan dianggap kategori berbeda oleh model.
+Nama kota tidak baku (Jakarta/Jkt/Sby/Jogja/Bali ...),1132,Pemetaan manual 28 varian → 15 kota,Kota yang sama tercatat sebagai kategori berbeda; 'Bali' = Denpasar (keputusan tim).
+berat_kg bernilai -1 (kode kosong),80,Ganti NaN → isi median per layanan,Berat negatif mustahil.
+berat_kg >= 100 (satuan gram),1197,Bagi 1000,Nilai tersebut dalam satuan gram (keputusan tim); setelah konversi sebarannya normal.
+jarak_km kosong,800,Isi median jarak per kota tujuan,"Jarak ditentukan oleh kota tujuan, jadi median per kota perkiraan yang baik."
+cuaca_saat_pickup kosong,400,Isi kategori 'tidak_diketahui',Aplikasi nyata juga bisa tidak punya data cuaca; model belajar menanganinya.
