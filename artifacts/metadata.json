@@ -1,0 +1,67 @@
+{
+  "model": "LogisticRegression",
+  "versi": "1.0.0",
+  "fitur_input": [
+    "jam_pickup",
+    "jarak_km",
+    "jumlah_transit",
+    "janji_hari",
+    "berat_kg",
+    "volume_hub_hari",
+    "pickup_sore",
+    "bulan",
+    "hari_minggu",
+    "bulan_puncak",
+    "hari_senin",
+    "rasio_jarak_janji",
+    "transit_per_janji",
+    "volume_tinggi",
+    "layanan",
+    "kota_tujuan",
+    "metode_bayar",
+    "cuaca_saat_pickup"
+  ],
+  "fitur_numerik": [
+    "jam_pickup",
+    "jarak_km",
+    "jumlah_transit",
+    "janji_hari",
+    "berat_kg",
+    "volume_hub_hari",
+    "pickup_sore",
+    "bulan",
+    "hari_minggu",
+    "bulan_puncak",
+    "hari_senin",
+    "rasio_jarak_janji",
+    "transit_per_janji",
+    "volume_tinggi"
+  ],
+  "fitur_kategorikal": [
+    "layanan",
+    "kota_tujuan",
+    "metode_bayar",
+    "cuaca_saat_pickup"
+  ],
+  "threshold": 0.3446,
+  "volume_q75_train": 5907.0,
+  "biaya_fn": 50000,
+  "biaya_fp": 5000,
+  "metrik_validation": {
+    "pr_auc": 0.6587,
+    "biaya_total_rp": 19580000
+  },
+  "metrik_test": {
+    "pr_auc": 0.3737,
+    "biaya_total_rp": 21945000
+  },
+  "metrik_baseline": {
+    "model": "LogisticRegression",
+    "pr_auc_validation": 0.6587
+  },
+  "pembagian_data": {
+    "train": "< 2026-01-01",
+    "validation": "2026-01-01 s.d. 2026-03-31",
+    "test": ">= 2026-04-01"
+  }
+}
