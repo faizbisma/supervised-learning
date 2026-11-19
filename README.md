@@ -1,7 +1,6 @@
 # Prediksi Keterlambatan Paket · Tim Ekspedisi Bandung
 
-**Kasus:** 08 - Keterlambatan Paket · **Aplikasi:** [Tautan Streamlit](https://share.streamlit.io) *(update setelah deploy)* · **Video:** [Tautan Video Demo](https://youtube.com) *(update setelah rekam)*
-
+**Kasus:** 08 - Keterlambatan Paket · **Aplikasi:** https://ekspedisibandoeng.streamlit.app/ · **Video:** https://drive.google.com/drive/folders/14tV_cKBTyRyPy-v6wkQK1cYx-Ui-VA2b?usp=sharing
 | Anggota | NIM | Bagian yang Dikerjakan |
 |---|---|---|
 | Fauzan Rizki Pratama | 2404389 | Eksplorasi data (EDA), pembersihan data, rekayasa fitur, pelatihan baseline dan model final, evaluasi metrik |
