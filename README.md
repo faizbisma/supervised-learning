@@ -1,4 +1,4 @@
-# Prediksi Keterlambatan Paket · Tim Ekspedisi Bandung
+# Prediksi Keterlambatan Paket Tim Ekspedisi Bandung
 
 **Kasus:** 08 - Keterlambatan Paket · **Aplikasi:** https://ekspedisibandoeng.streamlit.app/ · **Video:** https://drive.google.com/drive/folders/14tV_cKBTyRyPy-v6wkQK1cYx-Ui-VA2b?usp=sharing
 | Anggota | NIM | Bagian yang Dikerjakan |
